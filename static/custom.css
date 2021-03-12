@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+body { width: 700px; 
+margin: auto; }
+
+.project {
+    width:350px;
+    height:364px;
+    background-image: url("/floppy35.jpg");
+    background-size: 350px;
+    float: left;
+    position: relative;
+}
+
+.project .label {
+    position: absolute;
+    top: 152px;
+    left: 40px;
+    width: 260px;
+    height: 190px;
+    border: 5px black solid;
+    border-radius: 16px;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+}
+
+.project h3 {
+    margin-top: 1em;
+    font-size: 150%;
+}
+.project h3, .name {
+    margin-bottom: 0;
+    font-size: 40px;
+}
+
+.name {
+    margin-top: 0;
+    line-height: .7;
+}
+
+.label img {
+    margin-top: 2em;
+    width: 90%;
+}
