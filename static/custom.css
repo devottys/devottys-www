@@ -6,40 +6,49 @@ h1 {
 }
 
 body {
+    background-color: #cdc;
     width: 800px;
-    margin: auto;
-    text-align: center;
 }
+
+#projects {
+    padding-top: 5em;
+}
+
+#visidata { z-index: 5; }
+#darkdraw { z-index: 4; }
+#xdplayer { z-index: 3; }
+#acquire { z-index: 2; }
 
 .project {
     margin: 5px;
-    width:350px;
-    height:364px;
+    margin-bottom: -200px;
+    width:250px;
+    height:264px;
     background-image: url("/floppy35.jpg");
-    background-size: 350px;
+    background-size: 250px;
     float: left;
     position: relative;
 }
 
 .project .label {
     position: absolute;
-    top: 152px;
-    left: 40px;
-    width: 260px;
-    height: 190px;
-    border: 5px black solid;
-    border-radius: 16px;
+    top: 110px;
+    left: 30px;
+    width: 180px;
+    height: 135px;
+/*    border: 5px black solid;
+    border-radius: 16px; */
     font-family: 'Permanent Marker', cursive;
     text-align: center;
 }
 
 .project h3 {
-    margin-top: 1em;
+    margin-top: .5em;
     font-size: 150%;
 }
 .project h3, .front {
     margin-bottom: 0;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .front {
@@ -55,8 +64,8 @@ body {
 
 .back {
     display: none;
-    width: 260px;
-    height: 190px;
+    width: 180px;
+    height: 135px;
     border-radius: 8px;
     margin: auto;
 }
@@ -65,16 +74,31 @@ a .label {
     color: #333333;
 }
 
-.label:hover {
-    background: black;
+.computer {
+    position: relative;
+    float: left;
 }
 
-.label:hover .front {
-    display: none;
+.computer img {
+    height: 600px;
 }
 
-.label:hover .back {
-    display: block;
+.computer .screen img {
+    width: 315px;
+    height: 240px;
+    background-color: #333;
+}
+
+.computer .screen {
+    position: absolute;
+    top: 62px;
+    left: 115px;
+    width: 315px;
+    height: 240px;
+/*    border: 3px black solid;
+    border-radius: 4px; */
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
 }
 
 section {
