@@ -19,6 +19,10 @@ body {
 #xdplayer { z-index: 3; }
 #acquire { z-index: 2; }
 
+#acquire:hover { z-index:6; }
+#darkdraw:hover { z-index:6; }
+#xdplayer:hover { z-index:6; }
+
 .project {
     margin: 5px;
     margin-bottom: -200px;
