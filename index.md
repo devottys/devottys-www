@@ -8,7 +8,7 @@
 
 <div id="projects">
 
-<a href="https://visidata.org">
+<a href="https://github.com/devottys">
 <div id="devottys" class="project" onmouseover="document.getElementById('screenimage').src='https://www.visidata.org/devottys.gif';">
 <div class="label">
 <div class="front">
