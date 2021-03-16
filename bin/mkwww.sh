@@ -33,7 +33,7 @@ function build_pages () {
     mkdir -p "$BUILD"/"$1"
 
     # build index
-    build_page "$1" "$BUILD"/"$1"/index.md "index"
+    build_page "$1" "$BUILD"/"$1"/index.md "Bluebird Terminal Services"
 
     # build individual pages
     for postpath in $(find "$SECTION" -name '*.md'); do
@@ -43,7 +43,7 @@ function build_pages () {
     done
 }
 
-build_page . "$WWWSRC"/index.md "Index"
+build_page . "$WWWSRC"/index.md "Bluebird Terminal Services"
 
 # redirects
 cp "$WWWSRC"/redirects.tsv "$BUILD"/_redirects
