@@ -9,7 +9,7 @@
 <div id="projects">
 
 <a href="/about">
-<div id="bluebird" class="project" onmouseover="document.getElementById('screenimage').src='/welcome.gif';">
+<div id="bluebird" class="project" onmouseover="document.getElementById('screenimage').src='/about.png';">
 <div class="label">
 <h3>BlueBird</h3>
 modern terminal software
