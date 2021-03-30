@@ -24,7 +24,7 @@ modern terminal software
 <a href="https://visidata.org">
 <div id="visidata" class="project" onmouseover="document.getElementById('screenimage').src='https://www.visidata.org/freq-move-row.gif';">
 <div class="label">
-<img src="https://www.visidata.org/vdlogo.png" alt="VisiData logo"/>
+<img src="/vdlogo.png" alt="VisiData logo"/>
 data supertool
 </div>
 </div>
