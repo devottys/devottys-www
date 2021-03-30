@@ -88,3 +88,10 @@ a .project .label {
 section {
     clear: both;
 }
+
+button {
+    margin-top: 2em;
+    margin-left: -1em;
+    background-color: #ded;
+    color: #333;
+}
