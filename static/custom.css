@@ -30,9 +30,16 @@ a .project {
     transition: all .3s ease-in 0s;
 }
 
-a .project:hover {
-    margin-left: 1em;
-}
+
+#projects a:nth-child(1) .project { margin-left: 0.0em; }
+#projects a:nth-child(2) .project { margin-left: 1.0em; }
+#projects a:nth-child(3) .project { margin-left: 2.0em; }
+#projects a:nth-child(4) .project { margin-left: 3.0em; }
+
+#projects a:nth-child(1):hover .project { margin-left: -1.5em; }
+#projects a:nth-child(2):hover .project { margin-left: -0.5em; }
+#projects a:nth-child(3):hover .project { margin-left: 0.5em; }
+#projects a:nth-child(4):hover .project { margin-left: 1.5em; }
 
 .project h3 {
     font-size: 125%;
