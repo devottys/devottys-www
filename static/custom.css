@@ -102,3 +102,9 @@ button {
     background-color: #ded;
     color: #333;
 }
+
+.about {
+    width: 30em;
+    font-size: 24px;
+    margin: auto;
+}

@@ -1,5 +1,6 @@
 
-# About BlueBird Terminal Services
+:::::: {.about}
+# About BlueBird Shell
 
 # The Devottys
 
@@ -7,8 +8,8 @@ In 2021, Saul Pwanson founded [the devottys](), a merry band of digital artisans
 
 Currently the party consists of:
 
-- [Saul Pwanson](), Data Wizard
-- [Anja Kefala](), Code Cleric
+- [Saul Pwanson](https://saul.pw), Guild Leader
+- [Anja Kefala](https://anja.kefala.info), Code Cleric
 - [Dwimmer](), Symbol Sorcerer
 
 ## History
@@ -39,14 +40,12 @@ Terminal software often surpasses graphical software, in terms of speed and flex
 
 Where others go big, we go small.
 Where others are careless, we take great care.
-Where others do it for money, we do it for love.
-
-Money can only buy **big** software; it can't buy **great** software.
-
+Where others do classic, we do timeless.
 
 # Dreams
 
 The BlueBird Shell (BBS) is our dream of well-designed, carefully-created terminal software that is robust, ergonomic, delightful, and most of all, useful.
 We hope someday to launch a hosted version of our softwares, so that anyone with a computer can experience the delight of computing at terminal velocity.
 
-If you share this dream, [please support me on patreon]().
+If you share this dream, [please support me on patreon](https://patreon.com/saulpw).
+::::::
