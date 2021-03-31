@@ -43,7 +43,7 @@ a .project {
 
 .project h3 {
     font-size: 125%;
-    margin-bottom: .2em;
+    margin-bottom: .1em;
 }
 
 .project .label {
@@ -55,7 +55,7 @@ a .project {
     font-family: 'Permanent Marker', cursive;
     text-align: center;
     margin-top: 0;
-    line-height: .7;
+    line-height: .8;
 }
 
 .project .label img {
