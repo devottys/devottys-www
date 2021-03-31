@@ -41,7 +41,7 @@ multiplayer crossword solver
 </a>
 
 <a href="/darkdraw">
-<div id="darkdraw" class="project" onmouseover="document.getElementById('screenimage').src='';">
+<div id="darkdraw" class="project" onmouseover="document.getElementById('screenimage').src='/dwimmer_faerie-fire.gif';">
 <div class="label">
 <h3>DarkDraw</h3>
 unicode art & animation
