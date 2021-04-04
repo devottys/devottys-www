@@ -1,7 +1,7 @@
 <div id="projects">
 
 <a href="/about">
-<div id="bluebird" class="project" onmouseover="document.getElementById('screenimage').src='/about.png';">
+<div id="bluebird" class="project" onmouseover="screen_img('/bluebird.png')">
 <div class="label">
 <h3>About</h3>
 BlueBird.Sh
@@ -10,7 +10,7 @@ BlueBird.Sh
 </a>
 
 <a href="https://visidata.org">
-<div id="visidata" class="project" onmouseover="document.getElementById('screenimage').src='/visidata.gif';">
+<div id="visidata" class="project" onmouseover="screen_img('/visidata.gif')">
 <div class="label">
 <img src="/vdlogo.png" alt="VisiData logo"/>
 data supertool
@@ -20,7 +20,7 @@ data supertool
 
 
 <a href="https://github.com/devottys/xdplayer">
-<div id="xdplayer" class="project" onmouseover="document.getElementById('screenimage').src='/xdplayer.gif';">
+<div id="xdplayer" class="project" onmouseover="screen_img('/xdplayer.gif')">
 <div class="label">
 <h3>xdplayer</h3>
 multiplayer crossword solver
@@ -29,7 +29,7 @@ multiplayer crossword solver
 </a>
 
 <a href="https://github.com/devottys/darkdraw">
-<div id="darkdraw" class="project" onmouseover="document.getElementById('screenimage').src='/dwimmer_darkdraw.gif';">
+<div id="darkdraw" class="project" onmouseover="screen_img('/dwimmer_darkdraw.gif')">
 <div class="label">
 <h3>DarkDraw</h3>
 unicode art & animation
@@ -47,7 +47,7 @@ unicode arcade game
 </a-->
 
 <!--a href="/boardgames">
-<div id="boardgames" class="project" onmouseover="document.getElementById('screenimage').src='/boardgames.gif';">
+<div id="boardgames" class="project" onmouseover="screen_img('/boardgames.gif')">
 <div class="label">
 <h3>Acquire</h3>
 board game mockup

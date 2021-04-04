@@ -1,7 +1,7 @@
 <div id="projects">
 
 <a href="/">
-<div id="m1" class="project" onclick="document.getElementById('screen').innerHTML='';">
+<div id="m1" class="project" onmouseover="screen_txt('main')">
 <div class="label">
 &lt;&ndash; to BlueBird.Sh
 </div>
@@ -9,7 +9,7 @@
 </a>
 
 <a href="#">
-<div id="m1" class="project" onclick="document.getElementById('screen').innerHTML=document.getElementById('shell').outerHTML;">
+<div id="m1" class="project" onclick="screen_txt('shell')" onmouseover="screen_txt('shell')">
 <div class="label">
 BlueBird Shell
 Presents
@@ -18,7 +18,7 @@ Presents
 </a>
 
 <a href="#">
-<div id="m2" class="project" onclick="document.getElementById('screen').innerHTML=document.getElementById('mission').outerHTML;">
+<div id="m2" class="project" onclick="screen_txt('mission')" onmouseover="screen_txt('mission')">
 <div class="label">
 Quality Terminal Software
 </div>
@@ -26,7 +26,7 @@ Quality Terminal Software
 </a>
 
 <a href="#">
-<div id="m3" class="project" onclick="getElementById('screen').innerHTML=document.getElementById('modern').outerHTML;">
+<div id="m3" class="project" onclick="screen_txt('modern')" onmouseover="screen_txt('modern')">
 <div class="label">
 Using Modern Terminal Features
 </div>
@@ -35,7 +35,7 @@ Using Modern Terminal Features
 
 
 <a href="#">
-<div id="m5" class="project" onclick="document.getElementById('screen').innerHTML=document.getElementById('community').outerHTML;">
+<div id="m5" class="project" onclick="screen_txt('community')" onmouseover="screen_txt('community')">
 <div class="label">
 For the Communitty
 </div>
@@ -88,7 +88,7 @@ There has been some progress in the past 30 years, however.  In 2021, the year t
 - 256 colors (our software degrades gracefully to 16 colors)
 - mouse clicks (though a mouse is never necessary to use our software)
 
-Our software takes advantage of these features for great effect.
+Our software takes advantage of these features to great effect.
 
 ::::::
 
@@ -104,7 +104,13 @@ BlueBird Shell is a prosocial network of like-minded devottys.  Our charter incl
 
 The dream is a hosted "BlueBird Terminal" with collaborative data analysis, multi-network chat, and multiplayer games ([MMO](https://en.wikipedia.org/wiki/Massively_multiplayer_online_game) [ZZT](https://en.wikipedia.org/wiki/ZZT)?).
 
-If this sounds like your jam, <a href="javascript:;" onclick="ml_account('webforms', '3830851', 'i4f5p2', 'show')">subscribe to our newsletter</a> and/or [Patreon](https://www.patreon.com/bePatron?u=13873753&redirect_uri=https%3A%2F%2Fbluebird.sh%2F)!
+If this sounds like your jam, <a href="javascript:;" onclick="ml_account('webforms', '3830851', 'i4f5p2', 'show')">signup for our newsletter</a> and/or [subscribe to Saul's Patreon](https://www.patreon.com/bePatron?u=13873753&redirect_uri=https%3A%2F%2Fbluebird.sh%2F) and/or [join us on Matrix chat](/chat)!
+
+::::::
+
+:::::: {.screentext #main}
+
+## bluebird.sh#
 
 ::::::
 

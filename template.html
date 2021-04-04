@@ -25,6 +25,15 @@ var _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime
 _.parentNode.insertBefore(r,_);}})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
 
 var ml_account = ml('accounts', '3034654', 'b9n1j4a2s4', 'load');
+
+function screen_txt(id) {{
+    document.getElementById('screen').innerHTML=document.getElementById(id).outerHTML;
+}}
+
+function screen_img(imgurl) {{
+    document.getElementById('screenimage').src=imgurl;
+}}
+
 </script>
 <!-- End MailerLite Universal -->
 
@@ -40,9 +49,9 @@ var ml_account = ml('accounts', '3034654', 'b9n1j4a2s4', 'load');
        </div>
 
        <div id="cta">
-       <div>
-      <a href="https://www.patreon.com/bePatron?u=13873753" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
-       </div>
+           <a href="https://www.patreon.com/bePatron?u=13873753">
+               <div id="patreon">Support on Patreon!</div>
+           </a>
        <div>
          <button onclick="ml_account('webforms', '3830851', 'i4f5p2', 'show')">
             Newsletter

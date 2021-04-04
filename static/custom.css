@@ -14,6 +14,15 @@ body {
     width: 1100px;
 }
 
+.hidden { display: none; }
+.left { float: left; }
+.right { float: right; }
+
+ol, ul { padding-left: 2em; }
+li { margin-bottom: .5rem; }
+pre p { margin-bottom: .5rem; }
+section { clear: both; }
+
 h1 {
     margin-top: 1em;
     margin-bottom: 1em;
@@ -41,16 +50,16 @@ a .project {
 
 
 #projects a:nth-child(1) .project { margin-left: 0.0em; }
-#projects a:nth-child(2) .project { margin-left: 1.0em; }
-#projects a:nth-child(3) .project { margin-left: 0.0em; }
-#projects a:nth-child(4) .project { margin-left: 1.0em; }
-#projects a:nth-child(5) .project { margin-left: 0.0em; }
+#projects a:nth-child(2) .project { margin-left: 0.5em; }
+#projects a:nth-child(3) .project { margin-left: 1.0em; }
+#projects a:nth-child(4) .project { margin-left: 0.7em; }
+#projects a:nth-child(5) .project { margin-left: 1.2em; }
 
 #projects a:nth-child(1):hover .project { margin-left: -1.5em; }
-#projects a:nth-child(2):hover .project { margin-left: -0.5em; }
-#projects a:nth-child(3):hover .project { margin-left: -1.5em; }
-#projects a:nth-child(4):hover .project { margin-left: -0.5em; }
-#projects a:nth-child(5):hover .project { margin-left: -1.5em; }
+#projects a:nth-child(2):hover .project { margin-left: -1.0em; }
+#projects a:nth-child(3):hover .project { margin-left: -0.5em; }
+#projects a:nth-child(4):hover .project { margin-left: -0.8em; }
+#projects a:nth-child(5):hover .project { margin-left: -0.3em; }
 
 .project h3 {
     font-size: 125%;
@@ -107,28 +116,15 @@ a .project .label {
 /*    padding: .5em; */
 }
 
-pre p {
-    margin-bottom: .5rem;
-}
-
-li {
-    margin-bottom: .5rem;
-}
-
 #screen h3, #screen h2 {
     font-size: 150%;
     font-weight: bold;
 }
 
-
 #screen img {
     width: 100%;
     height: 100%;
     background-color: #333;
-}
-
-section {
-    clear: both;
 }
 
 .footer div {
@@ -137,25 +133,11 @@ section {
     margin-bottom: 0em;
 }
 
-button {
-    margin-left: -1em;
-    margin-right: 1em;
-    background-color: #45cefc;
-    color: #333;
-}
-
 .about {
     width: 30em;
     font-size: 24px;
     margin: auto;
 }
-
-.hidden {
-    display: none;
-}
-
-.left { float: left; }
-.right { float: right; }
 
 .screentext {
     padding: 0.5em;
@@ -163,6 +145,26 @@ button {
 
 #cta { margin-left: -4em; margin-bottom: 1em; float: right; }
 #cta div { float: left; }
+
+#cta button {
+    margin-left: -1em;
+    margin-right: 1em;
+    background-color: #66ccee;
+    color: #333;
+    border-radius: 0 9999px 9999px 0;
+}
+
+#cta #patreon {
+    background-color: #f55;
+    border: 1px solid #f55;
+    border-radius: 9999px;
+    padding: 0.7rem 1rem 0.6rem 1rem;
+    color: #fff;
+    font-size: 1.4rem !important;
+    width: 15rem;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+}
 
 .monitor #screen {
     position: absolute;
@@ -180,8 +182,4 @@ button {
 
 .monitor #screen {
     padding: 3em;
-}
-
-ol, ul {
-    padding-left: 2em;
 }
