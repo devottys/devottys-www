@@ -30,16 +30,28 @@ var ml_account = ml('accounts', '3034654', 'b9n1j4a2s4', 'load');
 
     </head>
     <body>
-     <!-- section id="nav">
-      <nav>
-       <a href="/about">about</a>
-      </nav>
-     </section -->
+      <div>
+       <div id="computer">
+        <img src="/computer.png" alt="Desktop computer" />
+        <!--img src="/monitor.png" alt="Flatpanel monitor" /-->
+        <div id="screen">
+            <img id="screenimage" src="/blackpixel.png" />
+        </div>
+       </div>
 
-     <section id="body">
-        {body}
-     </section>
+       <div id="cta">
+       <div>
+      <a href="https://www.patreon.com/bePatron?u=13873753" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
+       </div>
+       <div>
+         <button onclick="ml_account('webforms', '3830851', 'i4f5p2', 'show')">
+            Newsletter
+        </button>
+       </div>
+     </div>
 
+       {body}
+     </div>
      <section id="footer">
         <footer>
         </footer>

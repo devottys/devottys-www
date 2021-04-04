@@ -1,27 +1,15 @@
-
-<div class="computer">
-<img src="/computer.png" alt="Desktop computer" />
-<div class="screen">
-<img id="screenimage" src="/blackpixel.png" />
-</div>
-</div>
-
-<button onclick="ml_account('webforms', '3830851', 'i4f5p2', 'show')">
-  Bluebird News Feed
-</button>
-
 <div id="projects">
 
 <a href="/about">
 <div id="bluebird" class="project" onmouseover="document.getElementById('screenimage').src='/about.png';">
 <div class="label">
-<h3>BlueBird</h3>
-quality terminal software
+<h3>About</h3>
+BlueBird.Sh
 </div>
 </div>
 </a>
 
-<a href="/visidata">
+<a href="https://visidata.org">
 <div id="visidata" class="project" onmouseover="document.getElementById('screenimage').src='/visidata.gif';">
 <div class="label">
 <img src="/vdlogo.png" alt="VisiData logo"/>
@@ -40,8 +28,8 @@ multiplayer crossword solver
 </div>
 </a>
 
-<a href="/darkdraw">
-<div id="darkdraw" class="project" onmouseover="document.getElementById('screenimage').src='/dwimmer_faerie-fire.gif';">
+<a href="https://github.com/devottys/darkdraw">
+<div id="darkdraw" class="project" onmouseover="document.getElementById('screenimage').src='/dwimmer_darkdraw.gif';">
 <div class="label">
 <h3>DarkDraw</h3>
 unicode art & animation
@@ -67,4 +55,5 @@ board game mockup
 </div>
 </a-->
 
+</div>
 </div>

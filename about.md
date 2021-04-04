@@ -1,51 +1,91 @@
+<div id="projects">
 
-:::::: {.about}
-# About BlueBird Shell
+<a href="/">
+<div id="m1" class="project" onmouseover="document.getElementById('screen').innerHTML='';">
+<div class="label">
+$HOME
+</div>
+</div>
+</a>
 
-# The Devottys
+<a href="#">
+<div id="m1" class="project" onmouseover="document.getElementById('screen').innerHTML=document.getElementById('shell').outerHTML;">
+<div class="label">
+BlueBird Shell
+</div>
+</div>
+</a>
 
-In 2021, Saul Pwanson founded [the devottys](), a merry band of digital artisans, devoted to the creation of delightful tools and diversions for the terminal.
+<a href="#">
+<div id="m2" class="project" onmouseover="document.getElementById('screen').innerHTML=document.getElementById('mission').outerHTML;">
+<div class="label">
+Quality Terminal Software
+</div>
+</div>
+</a>
+
+<a href="#">
+<div id="m5" class="project" onmouseover="document.getElementById('screen').innerHTML=document.getElementById('community').outerHTML;">
+<div class="label">
+Communitty centered
+</div>
+</div>
+</a>
+
+<a href="#">
+<div id="m3" class="project" onmouseover="getElementById('screen').innerHTML=document.getElementById('modern').outerHTML;">
+<div class="label">
+Modern Terminal Features
+</div>
+</div>
+</a>
+
+</div>
+
+:::::: {.hidden}
+
+:::::: {.screentext #shell}
+
+## bluebird.sh
+
+BlueBird Shell is a showcase of terminal software written and maintained by the [Devottys](https://github.com/devottys), a merry band of digital artisans who have devoted themselves to creating delightful tools and useful diversions in the terminal.
+
+Many of our tools are based on [VisiData](https://visidata.org), because.. well, if you used VisiData, you'd know why.
 
 Currently the party consists of:
 
-- [Saul Pwanson](https://saul.pw), Guild Leader
+- [Saul Pwanson](https://saul.pw), Data Sourceror
 - [Anja Kefala](https://anja.kefala.info), Code Cleric
-- [Dwimmer](), Symbol Sorcerer
+- [Dwimmer](https://www.instagram.com/dwimmer.tm/), Rune Bard
 
-## History
+::::::
 
-Our software works in concert with VisiData, often as a plugin.
-This data-oriented approach to user interfaces means powerful data selection and editing are only a few keypresses away.
+:::::: {.screentext #mission}
 
-## The Modern Terminal
-
-There has been a surge of interest in [BBSes]() and [the CLI]() in the past few years.
-The [text art scene]() uses the character sets, fonts, and colors of yesteryear for nostalgic effect; and [block art]() is generally enlarged pixel art.
-The actual functional utilities are CLI, and constrain themselves to minor improvements on the shell, which is itself a minor improvement over the teletype.
-
-These days, the vast majority of people have access to modern terminals that support:
-
-- full-screen mode
-- Unicode (the BMP, via the Unifont), including full-width characters
-- 256 colors (our software degrades gracefully to 16 colors)
-- mouse button presses (though a mouse is never necessary to use our software)
-
-# Mission
+## Quality Terminal Software
 
 Our software fits within a terminal window, but that is not a constraint; for us, the terminal is an asset.
+Our tools are an "integrating development environment", in the spirit of the UNIX philosophy, and actively work to interface with other tools.
 
-The terminal endures not because it has so much, but because it needs so little.
+The terminal endures not because it has so much, but because it needs so little.  In many cases, terminal software surpasses graphical software, in terms of speed and flexibility and empowerment.
 
-Terminal software often surpasses graphical software, in terms of speed and flexibility and empowerment.
+Where others grow big, we stay small.
+Where others are sloppy, we take great care.
+Where others aim for classic, we aim for timeless.
 
-Where others go big, we go small.
-Where others are careless, we take great care.
-Where others do classic, we do timeless.
+::::::
 
-# Dreams
+:::::: {.screentext #modern}
 
-The BlueBird Shell (BBS) is our dream of well-designed, carefully-created terminal software that is robust, ergonomic, delightful, and most of all, useful.
-We hope someday to launch a hosted version of our softwares, so that anyone with a computer can experience the delight of computing at terminal velocity.
+## Modern Terminal Features
 
-If you share this dream, [please support me on patreon](https://patreon.com/saulpw).
+The terminal has been a remarkably stable platform, which is no small part of its allure.  There has been some progress in the past 30 years, however.  In 2021, the year the Devottys were founded, the vast majority of terminals supported:
+
+- full-screen interfaces ("TUI")
+- Unicode, including full-width characters
+- 256 colors (our software degrades gracefully to 16 colors)
+- mouse clicks (though a mouse is never necessary to use our software)
+
+::::::
+
 ::::::
