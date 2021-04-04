@@ -96,16 +96,15 @@ Our software takes advantage of these features for great effect.
 
 ## Communitty center
 
-BlueBird.sh is a prosocial network of like-minded devottys.  Our charter includes:
+BlueBird Shell is a prosocial network of like-minded devottys.  Our charter includes:
 
   - educational resources
   - community-benefit programs
   - recreational facilities
 
-The dream is a hosted "BlueBird Terminal" with collaborative data analysis, multi-network chat, and multiplayer games.
-There will probably be something like an [MMO](https://en.wikipedia.org/wiki/Massively_multiplayer_online_game) [ZZT](https://en.wikipedia.org/wiki/ZZT).
+The dream is a hosted "BlueBird Terminal" with collaborative data analysis, multi-network chat, and multiplayer games ([MMO](https://en.wikipedia.org/wiki/Massively_multiplayer_online_game) [ZZT](https://en.wikipedia.org/wiki/ZZT)?).
 
-If this sounds like your jam, subscribe to our newsletter or Patreon above!
+If this sounds like your jam, <a href="javascript:;" onclick="ml_account('webforms', '3830851', 'i4f5p2', 'show')">subscribe to our newsletter</a> and/or [Patreon](https://www.patreon.com/bePatron?u=13873753&redirect_uri=https%3A%2F%2Fbluebird.sh%2F)!
 
 ::::::
 
