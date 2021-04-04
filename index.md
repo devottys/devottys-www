@@ -19,7 +19,7 @@ data supertool
 </a>
 
 
-<a href="/xdplayer">
+<a href="https://github.com/devottys/xdplayer">
 <div id="xdplayer" class="project" onmouseover="document.getElementById('screenimage').src='/xdplayer.gif';">
 <div class="label">
 <h3>xdplayer</h3>

@@ -1,23 +1,24 @@
 <div id="projects">
 
 <a href="/">
-<div id="m1" class="project" onmouseover="document.getElementById('screen').innerHTML='';">
+<div id="m1" class="project" onclick="document.getElementById('screen').innerHTML='';">
 <div class="label">
-$HOME
+&lt;&ndash; to BlueBird.Sh
 </div>
 </div>
 </a>
 
 <a href="#">
-<div id="m1" class="project" onmouseover="document.getElementById('screen').innerHTML=document.getElementById('shell').outerHTML;">
+<div id="m1" class="project" onclick="document.getElementById('screen').innerHTML=document.getElementById('shell').outerHTML;">
 <div class="label">
 BlueBird Shell
+Presents
 </div>
 </div>
 </a>
 
 <a href="#">
-<div id="m2" class="project" onmouseover="document.getElementById('screen').innerHTML=document.getElementById('mission').outerHTML;">
+<div id="m2" class="project" onclick="document.getElementById('screen').innerHTML=document.getElementById('mission').outerHTML;">
 <div class="label">
 Quality Terminal Software
 </div>
@@ -25,17 +26,18 @@ Quality Terminal Software
 </a>
 
 <a href="#">
-<div id="m5" class="project" onmouseover="document.getElementById('screen').innerHTML=document.getElementById('community').outerHTML;">
+<div id="m3" class="project" onclick="getElementById('screen').innerHTML=document.getElementById('modern').outerHTML;">
 <div class="label">
-Communitty centered
+Using Modern Terminal Features
 </div>
 </div>
 </a>
 
+
 <a href="#">
-<div id="m3" class="project" onmouseover="getElementById('screen').innerHTML=document.getElementById('modern').outerHTML;">
+<div id="m5" class="project" onclick="document.getElementById('screen').innerHTML=document.getElementById('community').outerHTML;">
 <div class="label">
-Modern Terminal Features
+For the Communitty
 </div>
 </div>
 </a>
@@ -50,7 +52,7 @@ Modern Terminal Features
 
 BlueBird Shell is a showcase of terminal software written and maintained by the [Devottys](https://github.com/devottys), a merry band of digital artisans who have devoted themselves to creating delightful tools and useful diversions in the terminal.
 
-Many of our tools are based on [VisiData](https://visidata.org), because.. well, if you used VisiData, you'd know why.
+Many of our tools are based on [VisiData](https://visidata.org), because.. well, if you've used it, you know why.  It's incredibly useful.
 
 Currently the party consists of:
 
@@ -64,14 +66,13 @@ Currently the party consists of:
 
 ## Quality Terminal Software
 
-Our software fits within a terminal window, but that is not a constraint; for us, the terminal is an asset.
-Our tools are an "integrating development environment", in the spirit of the UNIX philosophy, and actively work to interface with other tools.
+Our software fits within a terminal window, but that is only a constraint, not a limitation.
+There are technical, logistical, psychological, and even emotional advantages to using the terminal.
+In skilled hands, a well-designed terminal program is a tremendous asset, making it easy to do quality work.
 
-The terminal endures not because it has so much, but because it needs so little.  In many cases, terminal software surpasses graphical software, in terms of speed and flexibility and empowerment.
-
-Where others grow big, we stay small.
-Where others are sloppy, we take great care.
-Where others aim for classic, we aim for timeless.
+- Where others become heavy, we stay light.
+- Where others monetize distraction, we work hard to minimize it.
+- Where others return to classic, we create timeless.
 
 ::::::
 
@@ -79,12 +80,32 @@ Where others aim for classic, we aim for timeless.
 
 ## Modern Terminal Features
 
-The terminal has been a remarkably stable platform, which is no small part of its allure.  There has been some progress in the past 30 years, however.  In 2021, the year the Devottys were founded, the vast majority of terminals supported:
+The terminal endures not because it has so much, but because it needs so little.
+There has been some progress in the past 30 years, however.  In 2021, the year the Devottys were founded, the vast majority of terminals supported:
 
 - full-screen interfaces ("TUI")
 - Unicode, including full-width characters
 - 256 colors (our software degrades gracefully to 16 colors)
 - mouse clicks (though a mouse is never necessary to use our software)
+
+Our software takes advantage of these features for great effect.
+
+::::::
+
+:::::: {.screentext #community}
+
+## Communitty center
+
+BlueBird.sh is a prosocial network of like-minded devottys.  Our charter includes:
+
+  - educational resources
+  - community-benefit programs
+  - recreational facilities
+
+The dream is a hosted "BlueBird Terminal" with collaborative data analysis, multi-network chat, and multiplayer games.
+There will probably be something like an [MMO](https://en.wikipedia.org/wiki/Massively_multiplayer_online_game) [ZZT](https://en.wikipedia.org/wiki/ZZT).
+
+If this sounds like your jam, subscribe to our newsletter or Patreon above!
 
 ::::::
 

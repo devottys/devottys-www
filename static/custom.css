@@ -44,11 +44,13 @@ a .project {
 #projects a:nth-child(2) .project { margin-left: 1.0em; }
 #projects a:nth-child(3) .project { margin-left: 0.0em; }
 #projects a:nth-child(4) .project { margin-left: 1.0em; }
+#projects a:nth-child(5) .project { margin-left: 0.0em; }
 
 #projects a:nth-child(1):hover .project { margin-left: -1.5em; }
 #projects a:nth-child(2):hover .project { margin-left: -0.5em; }
 #projects a:nth-child(3):hover .project { margin-left: -1.5em; }
 #projects a:nth-child(4):hover .project { margin-left: -0.5em; }
+#projects a:nth-child(5):hover .project { margin-left: -1.5em; }
 
 .project h3 {
     font-size: 125%;
@@ -103,6 +105,14 @@ a .project .label {
     background: black;
     border-radius: 10px;
 /*    padding: .5em; */
+}
+
+pre p {
+    margin-bottom: .5rem;
+}
+
+li {
+    margin-bottom: .5rem;
 }
 
 #screen h3, #screen h2 {
