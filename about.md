@@ -110,7 +110,7 @@ If this sounds like your jam, <a href="javascript:;" onclick="ml_account('webfor
 
 :::::: {.screentext #main}
 
-## bluebird.sh#
+<img src="/bluebird.png" alt="bluebird logon screen" />
 
 ::::::
 

@@ -1,7 +1,7 @@
 <div id="projects">
 
 <a href="/about">
-<div id="bluebird" class="project" onmouseover="screen_img('/bluebird.png')">
+<div id="bluebird" class="project" onmouseover="screen_txt('main')">
 <div class="label">
 <h3>About</h3>
 BlueBird.Sh
@@ -10,7 +10,7 @@ BlueBird.Sh
 </a>
 
 <a href="https://visidata.org">
-<div id="visidata" class="project" onmouseover="screen_img('/visidata.gif')">
+<div id="visidata" class="project" onmouseover="screen_txt('vdgif')">
 <div class="label">
 <img src="/vdlogo.png" alt="VisiData logo"/>
 data supertool
@@ -20,7 +20,7 @@ data supertool
 
 
 <a href="https://github.com/devottys/xdplayer">
-<div id="xdplayer" class="project" onmouseover="screen_img('/xdplayer.gif')">
+<div id="xdplayer" class="project" onmouseover="screen_txt('xdgif')">
 <div class="label">
 <h3>xdplayer</h3>
 multiplayer crossword solver
@@ -29,7 +29,7 @@ multiplayer crossword solver
 </a>
 
 <a href="https://github.com/devottys/darkdraw">
-<div id="darkdraw" class="project" onmouseover="screen_img('/dwimmer_darkdraw.gif')">
+<div id="darkdraw" class="project" onmouseover="screen_txt('ddgif')">
 <div class="label">
 <h3>DarkDraw</h3>
 unicode art & animation
@@ -47,7 +47,7 @@ unicode arcade game
 </a-->
 
 <!--a href="/boardgames">
-<div id="boardgames" class="project" onmouseover="screen_img('/boardgames.gif')">
+<div id="boardgames" class="project" onmouseover="screen_txt('/boardgames.gif')">
 <div class="label">
 <h3>Acquire</h3>
 board game mockup
@@ -57,3 +57,31 @@ board game mockup
 
 </div>
 </div>
+
+:::::: {.hidden}
+
+:::::: {.screentext #main}
+
+<img src="/bluebird.png" alt="BlueBird logon screen" />
+
+::::::
+
+:::::: {.screentext #vdgif}
+
+<img src="/visidata.gif" alt="VisiData animation" />
+
+::::::
+
+:::::: {.screentext #xdgif}
+
+<img src="/xdplayer.gif" alt="Crossword player animation" />
+
+::::::
+
+:::::: {.screentext #ddgif}
+
+<img src="/darkdraw.gif" alt="DarkDraw animation" />
+
+::::::
+
+::::::
