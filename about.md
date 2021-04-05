@@ -11,8 +11,8 @@
 <a href="#">
 <div id="m1" class="project" onclick="screen_txt('shell')" onmouseover="screen_txt('shell')">
 <div class="label">
-BlueBird Shell
-Presents
+The Devottys
+Present
 </div>
 </div>
 </a>
