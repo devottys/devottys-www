@@ -20,7 +20,7 @@ Present
 <a href="#">
 <div id="m2" class="project" onclick="screen_txt('mission')" onmouseover="screen_txt('mission')">
 <div class="label">
-Quality Terminal Software
+Qualitty Software
 </div>
 </div>
 </a>
@@ -64,11 +64,11 @@ Currently the party consists of:
 
 :::::: {.screentext #mission}
 
-## Quality Terminal Software
+## Qualitty Software
 
 Our software fits within a terminal window, but that is only a constraint, not a limitation.
 There are technical, logistical, psychological, and even emotional advantages to using the terminal.
-In skilled hands, a well-designed terminal program is a tremendous asset, making it easy to do quality work.
+In skilled hands, a well-designed terminal program is a tremendous asset, making it easier to do excellent work.
 
 - Where others become heavy, we stay light.
 - Where others monetize distraction, we work hard to minimize it.
@@ -99,7 +99,7 @@ Our software takes advantage of these features to great effect.
 BlueBird Shell is a prosocial network of like-minded devottys.  Our charter includes:
 
   - educational resources
-  - community-benefit programs
+  - communitty-benefit programs
   - recreational facilities
 
 The dream is a hosted "BlueBird Terminal" with collaborative data analysis, multi-network chat, and multiplayer games ([MMO](https://en.wikipedia.org/wiki/Massively_multiplayer_online_game) [ZZT](https://en.wikipedia.org/wiki/ZZT)?).
