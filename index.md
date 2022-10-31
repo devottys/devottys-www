@@ -55,6 +55,15 @@ board game mockup
 </div>
 </a-->
 
+<a href="https://hod2022.netlify.app">
+<div id="hodata2022" class="project" onmouseover="screen_txt('hod22png')">
+<div class="label">
+<h3>Hannukah of Data</h3>
+data puzzles
+</div>
+</div>
+</a>
+
 </div>
 </div>
 
@@ -81,6 +90,12 @@ board game mockup
 :::::: {.screentext #ddgif}
 
 <img src="/darkdraw.gif" alt="DarkDraw animation" />
+
+::::::
+
+:::::: {.screentext #hod22png}
+
+<img src="/hodata2022.png" alt="Hannukah of Data website" />
 
 ::::::
 
