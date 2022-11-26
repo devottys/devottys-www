@@ -58,7 +58,7 @@ board game mockup
 <a href="https://hanukkah.bluebird.sh/">
 <div id="hodata2022" class="project" onmouseover="screen_txt('hod22png')">
 <div class="label">
-<h3>Hannukah of Data</h3>
+<h3>Hanukkah of Data</h3>
 data puzzles
 </div>
 </div>
@@ -95,7 +95,7 @@ data puzzles
 
 :::::: {.screentext #hod22png}
 
-<img src="/hodata2022.png" alt="Hannukah of Data website" />
+<img src="/hodata2022.png" alt="Hanukkah of Data website" />
 
 ::::::
 
