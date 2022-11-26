@@ -55,7 +55,7 @@ board game mockup
 </div>
 </a-->
 
-<a href="https://hod2022.netlify.app">
+<a href="https://hanukkah.bluebird.sh/">
 <div id="hodata2022" class="project" onmouseover="screen_txt('hod22png')">
 <div class="label">
 <h3>Hannukah of Data</h3>
