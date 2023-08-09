@@ -3,3 +3,4 @@
 /visidata	https://visidata.org
 /darkdraw	https://github.com/devottys/darkdraw
 /ddw/*	https://raw.githubusercontent.com/devottys/studio/master/:splat
+/.well-known/matrix/*	https://matrix.bluebird.sh/.well-known/matrix:splat 200!
