@@ -5,4 +5,4 @@
 /ddw/*	https://raw.githubusercontent.com/devottys/studio/master/:splat
 /.well-known/matrix/*	https://matrix.bluebird.sh/.well-known/matrix:splat 200
 /_matrix/*	https://matrix.bluebird.sh:8448/_matrix:splat 200
-/employees\thttps://cryptpad.fr/pad/\#/2/pad/edit/2NslgTD9T8jKYhsf+XQo2gdN/
+/employees	https://cryptpad.fr/pad/\#/2/pad/edit/2NslgTD9T8jKYhsf+XQo2gdN/
