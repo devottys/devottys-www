@@ -1,6 +1,4 @@
-# Site Starter
-
-Just add flour!
+# Devottys https://bluebird.sh website
 
 If you are running on a local machine, start with bin/setup.sh to install pandoc, and update the Skeleton submodule.
 
