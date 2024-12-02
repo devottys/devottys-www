@@ -16,26 +16,6 @@
         <link rel="stylesheet" type="text/css" href="/custom.css">
         {head}
 
-<!-- MailerLite Universal -->
-<script>
-(function(m,a,i,l,e,r){{ m['MailerLiteObject']=e;function f(){{
-var c={{ a:arguments,q:[]}};var r=this.push(c);return "number"!=typeof r?r:f.bind(c.q);}}
-f.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);
-var _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));
-_.parentNode.insertBefore(r,_);}})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
-
-var ml_account = ml('accounts', '3034654', 'b9n1j4a2s4', 'load');
-
-function screen_txt(id) {{
-    document.getElementById('screen').innerHTML=document.getElementById(id).outerHTML;
-}}
-
-function screen_img(imgurl) {{
-    document.getElementById('screenimage').src=imgurl;
-}}
-
-</script>
-
 <script data-goatcounter="https://devottys.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 
     </head>
@@ -56,7 +36,7 @@ function screen_img(imgurl) {{
                <div id="patreon">Support on Patreon!</div>
            </a>
        <div>
-         <button onclick="ml_account('webforms', '3830851', 'i4f5p2', 'show')">
+         <button onclick="window.open('https://buttondown.com/saulpw', '_blank')">
             Newsletter
         </button>
        </div>
