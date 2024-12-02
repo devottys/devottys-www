@@ -55,7 +55,7 @@ board game mockup
 </div>
 </a-->
 
-<a href="https://hanukkah.bluebird.sh/">
+<a href="https://www.whereinthedata.com/noahsrug/">
 <div id="hodata2022" class="project" onmouseover="screen_txt('hod22png')">
 <div class="label">
 <h3>Hanukkah of Data</h3>
